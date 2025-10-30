@@ -14,19 +14,22 @@
 	justify-content: center;
 }
 img{
-	height: 8px;
 	/*ajusta el contenido y mantiene la calidad de las imagenes*/
 	object-fit: cover;
 }
 @media (min-width: 751px){
 	#title{
-		color: red;
+		color: rgb(255, 255, 255);
 	}
 }
 
 @media (max-width: 750px){
 	#title{
-		color: green;
+		color: rgb(116, 116, 116);
 	}
+}
+.precio{
+background-color: rgb(7, 166, 240);
+color: white;
 }
 

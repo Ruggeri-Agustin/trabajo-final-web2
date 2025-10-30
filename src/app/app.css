@@ -1,3 +1,19 @@
 .navbar{
 	background-color: rgb(7, 166, 240);
 }
+.btn-action{
+	color: #f8b460;
+}
+.btn-action:hover{
+	background-color: crimson;
+}
+#title{
+	text-align: center;
+	margin: 1px;
+	color: white;
+}
+juego{
+	width: 258px;
+	/*ajusta el contenido y mantiene la calidad de las imagenes*/
+	object-fit: cover;
+}

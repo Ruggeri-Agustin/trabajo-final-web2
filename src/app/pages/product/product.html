@@ -14,51 +14,25 @@ tamaño de pantalla extra pequeño -> celular muy pequeño
 mb - margin bottom
 -->
 
-<h1 id="title">Seccion de productos</h1>
-
+<h1 id="title">Lo mas vendido</h1>
 <div class="container">
   <div class="row">
-    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mb-4">
+    <!--
+    *ngfor -> directiva repetitiva para iterar colecciones o arreglos
+    -- funcionalidad similar a misma que repetitiva "for", "foreach"
+    --let i -> definicion de la variable que representa un elemento de la coleccion "infojuego" (permita iterar)
+    -->
+    <div  *ngFor="let i of infojuego" class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mb-4">
       <div class="card">
-        <img src="../../../assets/pexels-stasknop-1298601.jpg" class="card-img-top" alt="...">
+        <!--
+        {{i.propiedad}} -> interpolacion de propiedades
+        -->
+        <img src="{{i.img}}" class="card-img-top juego" alt="{{i.alt}}">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-            content.</p>
-          <a href="#" class="btn btn-action">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mb-4">
-      <div class="card">
-        <img src="../../../assets/pexels-stasknop-1298601.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-            content.</p>
-          <a href="#" class="btn btn-action">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mb-4">
-      <div class="card">
-        <img src="../../../assets/pexels-stasknop-1298601.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-            content.</p>
-          <a href="#" class="btn btn-action">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mb-4">
-      <div class="card">
-        <img src="../../../assets/pexels-stasknop-1298601.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-            content.</p>
-          <a href="#" class="btn btn-action">Go somewhere</a>
+          <h5 class="card-title">{{i.titulo}}</h5>
+          <p class="card-text">{{i.descripcion}}</p>
+          <a href="#" class="btn precio">{{i.precio}}</a>
+          <a href="#" class="btn btn-action">Adquirir</a>
         </div>
       </div>
     </div>
