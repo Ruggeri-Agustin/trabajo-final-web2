@@ -4,13 +4,25 @@
       <img src="https://wallpapers.com/images/hd/hotline-miami-1920-x-1080-background-5vd9c4cye654345z.jpg" class="d-block w-100" alt="..." height="450px">
     </div>
     <div class="carousel-item">
+      <img src="https://image.api.playstation.com/vulcan/ap/rnd/202206/0719/YScbS4L03wH1ABFZHgvL3NFW.jpg" class="d-block w-100" alt="..." height="450px">
+    </div>
+    <div class="carousel-item">
       <img src="https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_KatanaZero_image1600w.jpg" class="d-block w-100" alt="..." height="450px">
+    </div>
+    <div class="carousel-item">
+      <img src="https://play3r.net/wp-content/uploads/2013/05/mgr.jpg" class="d-block w-100" alt="..." height="450px">
     </div>
     <div class="carousel-item">
       <img src="https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/ncom/software/switch/70010000003208/4643fb058642335c523910f3a7910575f56372f612f7c0c9a497aaae978d3e51" class="d-block w-100" alt="..." height="450">
     </div>
+    <div class="carousel-item">
+      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhj0yJXXkvfN5avWAfjJJlW-oN2p-TDwxplX-J5DtohgY3gIiQDtYhVRjRl7266c1O7b5-uVRNR3AhiQRYwHqqBl8hmAu__CCiJw7pQbG-OGlJMZc3U7RtYBFJ5q3n6OU0vlWQ5AHPWPyrqoznDpAstpVl0R51w0quFXAx0Z9T54BS3BdTFTirUS7HL=w640-h360" class="d-block w-100" alt="..." height="450px">
+    </div>
 	<div class="carousel-item">
       <img src="https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_Celeste_image1600w.jpg" class="d-block w-100" alt="..." height="450">
+    </div>
+    <div class="carousel-item">
+      <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21090/header.jpg?t=1681232225" class="d-block w-100" alt="..." height="450">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -22,5 +34,29 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
- 
+
+<h1 id="title">Lo mas vendido</h1>
+<div class="container">
+  <div class="row">
+    <!--
+    *ngfor -> directiva repetitiva para iterar colecciones o arreglos
+    -- funcionalidad similar a misma que repetitiva "for", "foreach"
+    --let i -> definicion de la variable que representa un elemento de la coleccion "infojuego" (permita iterar)
+    -->
+    <div  *ngFor="let i of infoJuego" class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mb-4">
+      <div class="card">
+        <!--
+        {{i.propiedad}} -> interpolacion de propiedades
+        -->
+        <img src="{{i.img}}" class="card-img-top juego" alt="{{i.alt}}">
+        <div class="card-body">
+          <h5 class="card-title">{{i.titulo}}</h5>
+          <p class="card-text">{{i.descripcion}}</p>
+          <a href="#" class="btn precio">${{i.precio}}</a>
+          <a href="#" class="btn btn-action">Adquirir</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
 

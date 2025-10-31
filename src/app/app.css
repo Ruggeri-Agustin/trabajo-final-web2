@@ -1,5 +1,5 @@
 .navbar{
-	background-color: rgb(7, 166, 240);
+	background-color: rgb(1, 29, 105);
 }
 .btn-action{
 	color: #f8b460;
@@ -12,8 +12,15 @@
 	margin: 1px;
 	color: white;
 }
-juego{
+.juego{
 	width: 258px;
 	/*ajusta el contenido y mantiene la calidad de las imagenes*/
 	object-fit: cover;
+}
+.container{
+	display: flex;
+	justify-content: center;
+}
+.nav-link, .nav-link.active, .navbar-brand{
+	color: white
 }

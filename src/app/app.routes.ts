@@ -4,12 +4,30 @@ import { About } from './pages/about/about';
 import { Contact } from './pages/contact/contact';
 import { Product } from './pages/product/product';
 import { Ofertas } from './pages/ofertas/ofertas';
+import { ESport } from './pages/product/section/e-sport/e-sport';
+import { HackNSlash } from './pages/product/section/hack-n-slash/hack-n-slash';
+import { Indie } from './pages/product/section/indie/indie';
+import { Roguelike } from './pages/product/section/roguelike/roguelike';
+import { Shoter } from './pages/product/section/shoter/shoter';
+import { Simulator } from './pages/product/section/simulator/simulator';
+import { Survival } from './pages/product/section/survival/survival';
+import { Terror } from './pages/product/section/terror/terror';
+import { Noticas } from './pages/noticas/noticas';
 
 export const routes: Routes = [
-	{path: "", component: Home},
-	{path: "home", component: Home},
-	{path: "about", component: About},
-	{path: "contact", component: Contact},
-	{path: "ofertas", component: Ofertas},
-	{path: "product", component: Product}
+	{ path: "", component: Home },
+	{ path: "home", component: Home },
+	{ path: "about", component: About },
+	{ path: "contact", component: Contact },
+	{ path: "ofertas", component: Ofertas },
+	{ path: "product", component: Product },
+	{ path: "e-sport", component: ESport },
+	{ path: "hack-n-slash", component: HackNSlash },
+	{ path: "indie", component: Indie },
+	{ path: "roguelike", component: Roguelike },
+	{ path: "shoter", component: Shoter },
+	{ path: "simulator", component: Simulator },
+	{ path: "survival", component: Survival },
+	{ path: "terror", component: Terror },
+	{ path: "noticias", component: Noticas }
 ];
