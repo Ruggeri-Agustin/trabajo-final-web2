@@ -13,6 +13,7 @@ import { Simulator } from './pages/product/section/simulator/simulator';
 import { Survival } from './pages/product/section/survival/survival';
 import { Terror } from './pages/product/section/terror/terror';
 import { Noticas } from './pages/noticas/noticas';
+import { NewProduct } from './pages/product/section/new-product/new-product';
 
 export const routes: Routes = [
 	{ path: "", component: Home },
@@ -29,5 +30,6 @@ export const routes: Routes = [
 	{ path: "simulator", component: Simulator },
 	{ path: "survival", component: Survival },
 	{ path: "terror", component: Terror },
-	{ path: "noticias", component: Noticas }
+	{ path: "noticias", component: Noticas },
+	{path: "new-products", component: NewProduct}
 ];
