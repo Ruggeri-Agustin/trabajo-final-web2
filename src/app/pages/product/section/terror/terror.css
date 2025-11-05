@@ -1,0 +1,14 @@
+.container{
+	display: flex;
+	justify-content: center;
+}
+.btn-action{
+	color: #f8b460;
+}
+.btn-action:hover{
+	background-color: crimson;
+}
+.precio{
+background-color: rgb(7, 166, 240);
+color: white;
+}

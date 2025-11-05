@@ -33,7 +33,7 @@ export class Home {
         titulo: "battlefield 6",
         descripcion: "La experiencia bélica definitiva. En una guerra de tanques, cazas y gigantescos arsenales de combate, el arma más mortífera es tu patrulla.",
         precio: 69.99,
-        img: "../assets/bt6.avif",
+        img: "../assets/bt6.jpg",
         alt: "..."
       },
       {
