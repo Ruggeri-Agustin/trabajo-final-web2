@@ -56,6 +56,86 @@ export class Product {
         img: "../assets/rust.jpg",
         alt: "..."
       },
+      {
+        id: 6,
+        titulo: "Warframe",
+        descripcion: "Despierta como un guerrero imparable y lucha junto a tus amigos en este juego de acción gratuito en línea y basado en historias.",
+        precio: 0.00,
+        img: "../assets/warframe.jpg",
+        alt: ""
+      },
+      {
+        id: 7,
+        titulo: "Path of Exile",
+        descripcion: "Eres un exiliado. Tendrás que sobrevivir en el oscuro continente de Wraeclast mientras luchas para conseguir el poder que te permitirá vengarte de quienes te traicionaron. Path of Exile es un RPG de acción ambientado en un mundo de fantasía oscura. Es totalmente gratis y nunca será pay-to-win.",
+        precio: 0.00,
+        img: "../assets/pat.jpg",
+        alt: ""
+      },
+      {
+        id: 8,
+        titulo: "Dead by Daylight",
+        descripcion: "Dead by Daylight es un juego de horror de multijugador (4 contra 1) en el que un jugador representa el rol del asesino despiadado y los 4 restantes juegan como supervivientes que intentan escapar de él para evitar ser capturados y asesinados.",
+        precio: 14.99,
+        img: "../assets/dbd.jpg",
+        alt: ""
+      },
+      {
+        id: 9,
+        titulo: "Resident Evil 4 Remake",
+        descripcion: "Sobrevivir es solo el principio. Con una mecánica de juego modernizada, una historia reimaginada y unos gráficos espectacularmente detallados, Resident Evil 4 supone el renacimiento de un gigante del mundo de los videojuegos.",
+        precio: 29.99,
+        img: "../assets/re4.jpg",
+        alt: ""
+      },
+      {
+        id: 10,
+        titulo: "Hades II",
+        descripcion: "Usa las artes oscuras para abrirte paso más allá del inframundo y enfréntate al Titán del Tiempo en esta cautivadora continuación del galardonado juego de mazmorras de tipo rogue-like.",
+        precio: 14.99,
+        img: "../assets/hades.jpg",
+        alt: ""
+      },
+      {
+        id: 11,
+        titulo: "Naraka: Bladepoint",
+        descripcion: "NARAKA: BLADEPOINT es una experiencia de combate y acción para hasta 60 jugadores con enfrentamientos cuerpo a cuerpo basados en las artes marciales, movimientos que desafían la gravedad, héroes personalizables dotados de habilidades épicas y un gran arsenal de armas",
+        precio: 0.00,
+        img: "../assets/nara.jpg",
+        alt: ""
+      },
+      {
+        id: 12,
+        titulo: "The Binding of Isaac: Rebirth",
+        descripcion: "When Isaac’s mother starts hearing the voice of God demanding a sacrifice be made to prove her faith, Isaac escapes into the basement facing droves of deranged enemies, lost brothers and sisters, his fears, and eventually his mother.",
+        precio: 14.99,
+        img: "../assets/tboi.jpg",
+        alt: ""
+      },
+      {
+        id: 13,
+        titulo: "EA SPORTS FC™ 26",
+        descripcion: "El Club es tuyo en EA SPORTS FC™ 26. Juega a tu manera con una experiencia de juego renovada impulsada por los comentarios de la comunidad, Desafíos en vivo de Mánager que traen historias frescas a la nueva temporada y Arquetipos inspirados en los Grandes del deporte.",
+        precio: 69.99,
+        img: "../assets/fc26.jpg",
+        alt: ""
+      },
+      {
+        id: 14,
+        titulo: "NBA 2K26",
+        descripcion: "Dirige una franquicia de la NBA como general manager en Mi NBA. Elige entre los 30 equipos, vive 30 historias únicas de Mi GM inspiradas en el mundo real y persigue el objetivo final: ganar un campeonato. Influye en el futuro del deporte y deja una huella indeleble en la liga.",
+        precio: 29.99,
+        img: "../assets/nba.jpg",
+        alt: ""
+      },
+      {
+        id: 15,
+        titulo: "Megabonk",
+        descripcion: "¡Arrasa con oleadas infinitas de enemigos y vuélvete absurdamente poderoso! Agarra loot, sube de nivel, desbloquea personajes y haz upgrades para crear builds únicas y locas mientras te enfrentas a hordas de criaturas.",
+        precio: 5.79,
+        img: "../assets/mega.jpg",
+        alt: ""
+      }
     ]
   }
 

@@ -1,20 +1,22 @@
 <div class="container">
 <h1>nuevo producto</h1>
-<form>
+<!--insertamos directiva formgroup en etiqueta 'form' para crear y vincular un formulario reactivo-->
+<form [formGroup]="nuevoProducto" (ngSubmit)="crearProducto()">
 <div class="mb-3">
 <label for="titulo">titulo</label>
-<input id="titulo" type="text" class="form-control">
+<input id="titulo" type="text" class="form-control" formControlName="titulo">
 </div>
 
 <div class="mb-3">
 <label for="descripcion">descripcion</label>
-<input id="descripcion" type="" class="form-control">
+<input id="descripcion" type="" class="form-control" formControlName="descripcion">
 </div>
 
 <div class="mb-3">
 <label for="precio">precio</label>
-<input id="precio" type="number" class="form-control">
+<input id="precio" type="number" class="form-control" formControlName="precio">
 </div>
-<button type="submit" class="btn btn-primary w-100">Agregar</button>
+<!--EL BOTON SE VA A DESHABILITAR CUANDO EL FORMULARIO "nuevoProducto" no sea valido ("!") -->
+<button type="submit" class="btn btn-primary w-100" [disabled]="!nuevoProducto.valid">Agregar</button>
 </form>
 </div>
