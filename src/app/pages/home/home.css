@@ -3,10 +3,11 @@
 	justify-content: center;
 }
 .btn-action{
-	color: #f8b460;
+	color: crimson;
+	
 }
 .btn-action:hover{
-	background-color: crimson;
+	background-color: #2d549c;
 }
 .precio{
 background-color: rgb(7, 166, 240);

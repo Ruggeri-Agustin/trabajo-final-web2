@@ -41,12 +41,12 @@ export class Product {
         alt: "..."
       },
       {
-         id: 4,
+        id: 4,
         titulo: "PUBG: BATTLEGROUNDS",
         descripcion: "¡PUBG: BATTLEGROUNDS, el shooter con mucho que perder y todo que ganar que empezó el boom de los Battle Royale, es gratuito! Aterriza en mapas muy diversos, saquea armas y suministros únicos, y sobrevive en una zona menguante en la que cada turno podría ser el último.",
         precio: 0.00,
         img: "../assets/pub.jpg",
-        alt: "..." 
+        alt: "..."
       },
       {
         id: 5,
@@ -135,7 +135,15 @@ export class Product {
         precio: 5.79,
         img: "../assets/mega.jpg",
         alt: ""
-      }
+      },
+      {
+        id: 16,
+        titulo: "R.E.P.O",
+        descripcion: "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires.",
+        precio: 5.79,
+        img: "../assets/repo.jpg",
+        alt: "..."
+      },
     ]
   }
 
@@ -146,9 +154,9 @@ export class Product {
    * @descripcion metodo para ver mas informacion de un producto.
    * recibe como parametro un producto de tipo "any" y lo asigna a la variable "productoSeleccionado"
    */
-  
-  
-  verMas(producto: any){
+
+
+  verMas(producto: any) {
     this.productoSeleccionado = producto
   }
 }

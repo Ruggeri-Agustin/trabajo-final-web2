@@ -7,3 +7,17 @@
 	margin: 1px;
 	color: white;
 }
+.precioViejo{
+	text-decoration: line-through;
+	color: rgb(158, 158, 158)
+}
+.descuento{
+	color: green;
+	text-decoration: none;
+}
+.btn-action{
+	color: crimson;
+}
+.btn-action:hover{
+	background-color: #2d549c;
+}
